@@ -1,0 +1,17 @@
+medusa-aws-terraform/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── terraform/
+│   ├── provider.tf
+│   ├── variables.tf
+│   ├── main.tf
+│   ├── ecs.tf
+│   ├── alb.tf
+│   ├── rds.tf
+│   ├── iam.tf
+│   ├── outputs.tf
+│   └── versions.tf
+├── docker/
+│   └── Dockerfile
+└── README.md
